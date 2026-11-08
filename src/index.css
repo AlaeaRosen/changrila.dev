@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Inter:wght@400&family=Jersey+25&display=swap');
+@import 'tailwindcss';
+
+/* Exact SF Compact faces from the Figma import (figma fonts resolve) */
+@font-face {
+  font-family: 'SF Compact:Regular';
+  src: url('https://static.figma.com/font/SF-Compact_1') format('woff2');
+  font-style: normal;
+  font-weight: 457;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SF Compact:Bold';
+  src: url('https://static.figma.com/font/SF-Compact_1') format('woff2');
+  font-style: normal;
+  font-weight: 790;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SF Compact:Heavy';
+  src: url('https://static.figma.com/font/SF-Compact_1') format('woff2');
+  font-style: normal;
+  font-weight: 943;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SF Compact:Semibold';
+  src: url('https://static.figma.com/font/SF-Compact_1') format('woff2');
+  font-style: normal;
+  font-weight: 656;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SF Compact:Thin';
+  src: url('https://static.figma.com/font/SF-Compact_1') format('woff2');
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SF Compact:Light';
+  src: url('https://static.figma.com/font/SF-Compact_1') format('woff2');
+  font-style: normal;
+  font-weight: 350;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SF Compact:Medium';
+  src: url('https://static.figma.com/font/SF-Compact_1') format('woff2');
+  font-style: normal;
+  font-weight: 556;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Abel:Regular';
+  src: url('https://static.figma.com/font/Abel-Regular_2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'DM Sans:Medium';
+  src: url('https://static.figma.com/font/DMSans_opsz_wght__1') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Instrument Sans:Regular';
+  src: url('https://static.figma.com/font/InstrumentSans_wdth_wght__1') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Public Sans:Bold';
+  src: url('https://static.figma.com/font/PublicSans_wght__2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Public Sans:Regular';
+  src: url('https://static.figma.com/font/PublicSans_wght__2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Public Sans:SemiBold';
+  src: url('https://static.figma.com/font/PublicSans_wght__2') format('woff2');
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SF Pro:Semibold';
+  src: url('https://static.figma.com/font/SF-Pro_1') format('woff2');
+  font-style: normal;
+  font-weight: 590;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gugi:Regular';
+  src: url('https://static.figma.com/font/Gugi-Regular_1') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter:Black';
+  src: url('https://static.figma.com/font/Inter_1') format('woff2');
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter:Bold';
+  src: url('https://static.figma.com/font/Inter_1') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter:Medium';
+  src: url('https://static.figma.com/font/Inter_1') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter:Regular';
+  src: url('https://static.figma.com/font/Inter_1') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter:Semi Bold';
+  src: url('https://static.figma.com/font/Inter_1') format('woff2');
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans:Bold';
+  src: url('https://static.figma.com/font/PlusJakartaSans_wght__2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Noto Sans:Regular';
+  src: url('https://static.figma.com/font/NotoSans-VF_3') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Noto Sans Math:Regular';
+  src: url('https://static.figma.com/font/NotoSansMath-Regular_1') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Noto Sans Symbols:Regular';
+  src: url('https://static.figma.com/font/NotoSansSymbols-VF_2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Noto Sans Symbols2:Regular';
+  src: url('https://static.figma.com/font/NotoSansSymbols2-Regular_5') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* Syne Medium for the nav bar labels (figma fonts resolve) */
+@font-face {
+  font-family: 'Syne:Medium';
+  src: url('https://static.figma.com/font/Syne_wght__2') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+/* SF Compact is an Apple system face: use it locally when installed, else fall back. */
+@font-face {
+  font-family: 'SF Compact Local';
+  src: local('SF Compact Text'), local('SFCompactText-Regular'), local('SF Compact');
+  font-weight: 100 1000;
+  font-display: swap;
+}
+
+@theme {
+  --font-display: 'Gugi', system-ui, sans-serif;
+  --font-sf: 'SF Compact:Regular', 'SF Compact Local', -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', system-ui, sans-serif;
+  --font-sf-bold: 'SF Compact:Bold', 'SF Compact Local', -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', system-ui, sans-serif;
+  --font-sf-heavy: 'SF Compact:Heavy', 'SF Compact Local', -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', system-ui, sans-serif;
+  --font-inter: 'Inter', system-ui, sans-serif;
+  --font-syne: 'Syne:Medium', system-ui, sans-serif;
+  --font-pixel: 'Jersey 25', monospace;
+
+  --color-gold: #c9a84c;
+  --color-gold-soft: #dbc28c;
+  --color-brass: #c8b06f;
+  --color-cream: #fee6a8;
+  --color-copper: #ad7534;
+  --color-panel: #13101e;
+  --color-ink: #0d0a14;
+  --color-deep: #0f1a2e;
+  --color-steel: #bebdbd;
+  --color-track: #4a5368;
+  --color-ice: #c7ddfd;
+
+  --animate-spin-slow: spin 60s linear infinite;
+  --animate-spin-rev: spin-rev 45s linear infinite;
+}
+
+@keyframes spin-rev {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes pop-in {
+  from {
+    opacity: 0;
+    transform: scale(0.92) translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes glance {
+  0% {
+    transform: translateX(-120%) rotate(25deg);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(120%) rotate(25deg);
+    opacity: 0;
+  }
+}
+@keyframes ping-ring {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(1.35);
+    opacity: 0;
+  }
+}
+@keyframes bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1.5px);
+  }
+}
+@keyframes breathe {
+  0%,
+  100% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.006);
+  }
+}
+@keyframes steam {
+  0% {
+    transform: translate(0, 0) scale(0.6);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.9;
+  }
+  100% {
+    transform: translate(10px, -34px) scale(1.4);
+    opacity: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    opacity: 0.35;
+  }
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+  body {
+    background: #0a0c22;
+    color: white;
+    font-family: var(--font-sf);
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+  }
+  ::selection {
+    background: rgba(201, 168, 76, 0.4);
+  }
+}
+
+@layer utilities {
+  .scrollbar-gold {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-ice) var(--color-track);
+  }
+  .scrollbar-gold::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+  .scrollbar-gold::-webkit-scrollbar-track {
+    background: var(--color-track);
+    border-radius: 27px;
+  }
+  .scrollbar-gold::-webkit-scrollbar-thumb {
+    background: var(--color-ice);
+    border-radius: 27px;
+  }
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .chamfer-card {
+    clip-path: polygon(0 0, 90.45% 0, 100% 10.9%, 100% 100%, 9.5% 100%, 0 91%);
+  }
+  .chamfer-sm {
+    clip-path: polygon(0 0, calc(100% - 18px) 0, 100% 18px, 100% 100%, 18px 100%, 0 calc(100% - 18px));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+.compact-case-study [class~='text-[25px]'] {
+  font-size: 20px;
+}
+
+.compact-case-study [class~='text-[23px]'] {
+  font-size: 18px;
+}
+
+.compact-case-study [class~='text-[30px]'] {
+  font-size: 24px;
+}
+
+.compact-case-study [class~='text-[34px]'] {
+  font-size: 28px;
+}
+
+.compact-case-study [class~='text-[35px]'],
+.compact-case-study [class~='text-[38px]'],
+.compact-case-study [class~='text-[40px]'] {
+  font-size: 30px;
+}
+
+.compact-case-study [class~='text-[70px]'] {
+  font-size: 48px;
+}
+
+.mindsprout-case-study,
+.mindsprout-case-study > * {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.mindsprout-case-study [data-node-id='244:514'],
+.mindsprout-case-study [data-node-id='244:465'],
+.mindsprout-case-study [data-node-id='244:515'] {
+  width: 100%;
+  max-width: 100%;
+}
+
+.mindsprout-case-study [data-node-id='244:515'] {
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.mindsprout-case-study
+  :is(
+    [data-name*='Image space']:not([data-node-id='244:27']),
+    [data-name='LIGHT screenshot'],
+    [data-name='DARK screenshot']
+  ) {
+  background: #162a42;
+}
+
+.mindsprout-case-study
+  :is(
+    [data-name*='Image space']:not([data-node-id='244:27']),
+    [data-name='LIGHT screenshot'],
+    [data-name='DARK screenshot']
+  )
+  img {
+  object-fit: contain;
+  object-position: center;
+}
+
+@media (max-width: 1200px) {
+  .mindsprout-case-study {
+    gap: 56px;
+    overflow-x: clip;
+  }
+
+  .mindsprout-case-study [data-node-id='244:26'] {
+    font-size: clamp(34px, 8vw, 57px);
+  }
+
+  .mindsprout-case-study [data-scroll-section] {
+    font-size: clamp(26px, 4vw, 30px);
+  }
+
+  .mindsprout-case-study
+    :is(
+      [data-name='Product values'],
+      [data-name='Convergence artefacts'],
+      [data-name='Persona and pillars artefacts'],
+      [data-name='Prototype evolution'],
+      [data-name='Scope decisions'],
+      [data-name='Product systems'],
+      [data-name='Memory trigger examples'],
+      [data-name='Emotional signals'],
+      [data-name='Animation and onboarding contributions'],
+      [data-name='Wardrobe and navigation contributions'],
+      [data-name='Navigation comparisons'],
+      [data-name='Implementation architecture']
+    ) {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+    gap: 24px;
+  }
+
+  .mindsprout-case-study [data-name='Project overview'] {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(250px, 1fr);
+    width: 100%;
+    gap: 48px;
+  }
+
+  .mindsprout-case-study
+    :is([data-name='Economy rules'], [data-name='Reflection prompts']) {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    width: 100%;
+    gap: 20px;
+  }
+
+  .mindsprout-case-study [data-name='Reflection loop diagram'] {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    width: 100%;
+    gap: 12px;
+  }
+
+  .mindsprout-case-study [data-name='Reflection loop diagram'] > * {
+    min-width: 0;
+  }
+
+  .mindsprout-case-study [data-name='Reflection loop diagram'] > * > p {
+    display: none;
+  }
+
+  .mindsprout-case-study [data-node-id='244:515'] {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  .mindsprout-case-study
+    :is(
+      [data-name='Project overview'],
+      [data-name='Product values'],
+      [data-name='Convergence artefacts'],
+      [data-name='Persona and pillars artefacts'],
+      [data-name='Prototype evolution'],
+      [data-name='Scope decisions'],
+      [data-name='Product systems'],
+      [data-name='Memory trigger examples'],
+      [data-name='Emotional signals'],
+      [data-name='Wardrobe story'],
+      [data-name='Economy rules'],
+      [data-name='Animation and onboarding contributions'],
+      [data-name='Wardrobe and navigation contributions'],
+      [data-name='Navigation comparisons'],
+      [data-name='Implementation architecture'],
+      [data-name='Design system overview'],
+      [data-name='Reflection prompts']
+    )
+    > * {
+    min-width: 0;
+    width: 100%;
+    max-width: none;
+  }
+
+  .mindsprout-case-study [data-name='Screen gallery row'] {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    width: 100%;
+    overflow: visible;
+    padding-bottom: 12px;
+  }
+
+  .mindsprout-case-study [data-name='Screen gallery row'] > * {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .mindsprout-case-study [data-name='Screen gallery row'] > * > p {
+    width: 100%;
+  }
+
+  .mindsprout-case-study
+    :is([data-node-id='244:514'], [data-node-id='244:465']) {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .mindsprout-case-study
+    :is(
+      [data-name='Project overview'],
+      [data-name='Product values'],
+      [data-name='Convergence artefacts'],
+      [data-name='Persona and pillars artefacts'],
+      [data-name='Prototype evolution'],
+      [data-name='Scope decisions'],
+      [data-name='Product systems'],
+      [data-name='Reflection loop diagram'],
+      [data-name='Memory trigger examples'],
+      [data-name='Emotional signals'],
+      [data-name='Wardrobe story'],
+      [data-name='Economy rules'],
+      [data-name='Animation and onboarding contributions'],
+      [data-name='Wardrobe and navigation contributions'],
+      [data-name='Navigation comparisons'],
+      [data-name='Implementation architecture'],
+      [data-name='Design system overview'],
+      [data-name='Reflection prompts'],
+      [data-name='Screen gallery row']
+    ) {
+    grid-template-columns: 1fr;
+  }
+
+  .mindsprout-case-study [data-node-id='244:515'] {
+    flex-direction: column;
+  }
+}

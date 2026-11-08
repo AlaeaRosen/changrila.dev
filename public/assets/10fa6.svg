@@ -1,0 +1,10 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="362.946" height="530.987" viewBox="0 0 362.946 530.987" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Background card">
+<path d="M1.58032 1.58032H327.141L361.366 58.9986V529.407H35.8059L1.58032 481.997V1.58032Z" fill="#13101E"/>
+<mask id="stroke0_0_8" maskUnits="userSpaceOnUse" x="-0.419681" y="-0.419681" width="364" height="532" fill="black">
+<rect fill="white" x="-0.419681" y="-0.419681" width="364" height="532"/>
+<path d="M1.58032 1.58032H327.141L361.366 58.9986V529.407H35.8059L1.58032 481.997V1.58032Z"/>
+</mask>
+<path d="M1.58032 1.58032H327.141L361.366 58.9986V529.407H35.8059L1.58032 481.997V1.58032Z" stroke-width="3.16064" stroke="#C9A84C" mask="url(#stroke0_0_8)"/>
+</g>
+</svg>

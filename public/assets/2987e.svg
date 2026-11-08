@@ -1,0 +1,20 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="52.9565" height="63" viewBox="0 0 52.9565 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Vector 4056" filter="url(#filter0_i_0_121)">
+<mask id="stroke0_0_121" fill="white">
+<path d="M0 0L26.4783 63L52.9565 0L25.3245 23.0858L0 0Z"/>
+</mask>
+<path d="M26.4783 63L0 0L25.3245 23.0858L52.9565 0L26.4783 63Z" stroke-width="52" stroke-linecap="round" stroke="white" mask="url(#stroke0_0_121)"/>
+</g>
+<defs>
+<filter id="filter0_i_0_121" x="0" y="-6.7" width="52.9565" height="69.7" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-15"/>
+<feGaussianBlur stdDeviation="3.35"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_0_121"/>
+</filter>
+</defs>
+</svg>

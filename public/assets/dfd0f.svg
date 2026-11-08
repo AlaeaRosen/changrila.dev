@@ -1,0 +1,24 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="45.9441" height="17.1059" viewBox="0 0 45.9441 17.1059" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Group 190">
+<g id="Foot L">
+<use xlink:href="#stroke0_0_75" fill="#7D7068"/>
+<use xlink:href="#stroke0_0_75" fill="url(#paint0_radial_0_75)"/>
+</g>
+<g id="Foot R">
+<use xlink:href="#stroke1_0_75" fill="#7D7068"/>
+<use xlink:href="#stroke1_0_75" fill="url(#paint1_radial_0_75)"/>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial_0_75" cx="0" cy="0" r="1" gradientTransform="matrix(-6.13076 -0.259768 0.338715 6.98348 7.92447 5.33095)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#666666" stop-opacity="0"/>
+<stop offset="1" stop-color="#705B4D"/>
+</radialGradient>
+<radialGradient id="paint1_radial_0_75" cx="0" cy="0" r="1" gradientTransform="matrix(6.00715 -0.521356 0.0376533 8.16557 34.9218 5.81916)" gradientUnits="userSpaceOnUse">
+<stop offset="0.110577" stop-color="#666666" stop-opacity="0"/>
+<stop offset="0.932692" stop-color="#705B4D"/>
+</radialGradient>
+<path id="stroke0_0_75" d="M11.3619 12.962C13.4308 9.93554 10.6616 2.93463 7.70142 2.4129C7.70142 2.4129 1.17353 1.55359 0.665081 5.45084C0.316853 8.11999 4.56566 13.0108 5.99803 14.1213C8.30493 15.9097 9.4411 15.7717 11.3619 12.962Z"/>
+<path id="stroke1_0_75" d="M33.7774 15.1114C30.9313 12.9029 32.0242 4.30863 35.1328 2.98936C35.1328 2.98936 42.0458 0.348891 43.3715 3.80285C44.2795 6.1684 40.6403 11.8858 39.3065 13.3162C37.1584 15.6201 36.4197 17.1618 33.7774 15.1114Z"/>
+</defs>
+</svg>
